@@ -1,0 +1,54 @@
+{
+  "project": "みやぎ自治体クイズ・旧市町村74地域版",
+  "baseline": "1987-10-31",
+  "edition": "v1.6",
+  "total_original_questions": 274,
+  "active_questions": 235,
+  "excluded_questions": 39,
+  "rewritten_questions": 40,
+  "area_count": 74,
+  "independent_fact_check_complete": false,
+  "tests": {
+    "javascript_syntax": "passed node --check",
+    "responsive": [
+      {
+        "width": 360,
+        "title": "みやぎ自治体クイズ｜旧市町村版（74市町村）",
+        "question_count": 235,
+        "candidate_count": 74,
+        "overflow": false,
+        "basic_controls": "passed"
+      },
+      {
+        "width": 390,
+        "title": "みやぎ自治体クイズ｜旧市町村版（74市町村）",
+        "question_count": 235,
+        "candidate_count": 74,
+        "overflow": false,
+        "basic_controls": "passed"
+      },
+      {
+        "width": 768,
+        "title": "みやぎ自治体クイズ｜旧市町村版（74市町村）",
+        "question_count": 235,
+        "candidate_count": 74,
+        "overflow": false,
+        "basic_controls": "passed"
+      },
+      {
+        "width": 1280,
+        "title": "みやぎ自治体クイズ｜旧市町村版（74市町村）",
+        "question_count": 235,
+        "candidate_count": 74,
+        "overflow": false,
+        "basic_controls": "passed"
+      }
+    ],
+    "correctly_identified": 74,
+    "attempted": 74,
+    "simulation_description": "各自治体の内蔵正解データを根拠に「はい/いいえ」を回答する自動試験。1987年当時の事実の独立照合ではありません。",
+    "browser_errors": [],
+    "iphone_safari_real_device": "not_tested",
+    "archival_geographic_verification": "not_finished"
+  }
+}
